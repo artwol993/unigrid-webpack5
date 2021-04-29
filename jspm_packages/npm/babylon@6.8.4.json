@@ -1,0 +1,15 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js",
+    "./lib/parser": "./lib/parser/index.js",
+    "./lib/plugins/jsx": "./lib/plugins/jsx/index.js",
+    "./lib/tokenizer": "./lib/tokenizer/index.js"
+  }
+}
